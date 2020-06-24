@@ -11,7 +11,7 @@ while True:
     if datetime.timestamp(data_servidor()) >= datetime.timestamp(verificado[0]):
 
         mysql.proximo_agendamento(data_servidor(), proxima_data_de_agendamento())
-        print("Agendamento marcado.")
+        print("Agendamento marcado")
 
         dados_coleta = mysql.get_positions(comeco_dia(1), fim_dia())
         ras_rle_data = comeco_dia(0)
