@@ -39,6 +39,5 @@ MAIN
         s += '({} ,{} ,"{}","{}" ,{}),'.format(row[0],row[2],ras_rle_data,data_coleta,row[1])
     s = s[0:-1]
     redshift.close()
-    redi
-    
+      
 """
